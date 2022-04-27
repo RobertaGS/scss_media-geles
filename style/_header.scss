@@ -1,0 +1,12 @@
+header{
+    @include flexCenter(column, red);
+    height: 100vh;
+    color: $textColor;
+    background: lightblue;
+    button{
+        background: $primaryBtn;
+        &::after{
+            content: "Hello";
+        }
+    }
+}

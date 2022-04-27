@@ -1,12 +1,15 @@
-*{
-    margin: 0;
-    box-sizing:border-box;
-}
-body{
-    height: 100vh;
-    background-color: rgba(61, 122, 234, 0.797);
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+@import "./variables";
+@import "./header";
+
+
+.contact {
+    @extend header;
+    background-color: rgb(160, 92, 146);
+    background-color: rgb(107, 137, 31);
+    width: 100% - 20%;
+    
 
 }
+
+
+
